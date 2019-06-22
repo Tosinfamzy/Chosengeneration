@@ -11,72 +11,123 @@
 
         <!-- Styles -->
         <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
+            /*
+ COLORS:
+ Light green: #7ed56f
+ Medium green: #55c57a
+ Dark green: #28b485
+ */
+
+            * {
                 margin: 0;
+                padding: 0;
+                box-sizing: border-box;
             }
 
-            .full-height {
-                height: 100vh;
+            body {
+                font-family: "lato", sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 1.7;
+                color:#777;
+                padding: 30px;
             }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
+            header {
+                height: 95vh;
+                background-image: linear-gradient(to right,#7ed56fd2, #28b485ec), url(../img/group.jpeg);
+                background-size: cover;
+                clip-path: polygon(0 0 ,100% 0 , 100% 80%, 0 100%);
+                background-position: top;
                 position: relative;
             }
+            .logo-box {
+                position:absolute;
+                top: 40px;
+                left:40px;
 
-            .top-right {
+            }
+
+            .logo{
+                height: 35px;
+            }
+
+            .text-box{
                 position: absolute;
-                right: 10px;
-                top: 18px;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
             }
 
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
+            .heading-primary
+            {
+                color: #ffffff;
                 text-transform: uppercase;
+
             }
 
-            .m-b-md {
-                margin-bottom: 30px;
+            .heading-primary-main{
+                display: block;
+                font-size: 60px;
+                font-weight: 400;
+                letter-spacing: 35px;
+                animation-name: moveInLeft;
+                animation-duration: 4s;
+            }
+
+            .heading-primary-sub{
+                display: block;
+                font-size: 20px;
+                font-weight: 400;
+                letter-spacing: 15;
+                animation-name: moveInLeft;
+                animation-duration: 4s;
+            }
+
+            @keyframes moveInLeft {
+                0%{
+                    opacity: 0;
+                    transform: translateX(-100%);
+                }
+                80%{
+                    transform:translateX(-10px);
+                }
+                100%{
+                    opacity: 1;
+                    transform: translate(0);
+                }
+            }
+            @keyframes moveInRight {
+                0%{
+                    opacity: 0;
+                    transform: translateX(100%);
+                }
+                80%{
+                    transform:translateX(10px);
+                }
+                100%{
+                    opacity: 1;
+                    transform: translate(0);
+                }
             }
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Chosen Generation
-                </div>
-
-                <div class="links">
-                   This is the chsosen generation wesbsite.
-
-                    It is currently undergoing redevelopment please bear with us as we make changes to bring you a better site
-                </div>
-            </div>
+    <header>
+        <div class="logo-box">
+            <img src="{{asset("img/group.jpeg")}}" alt="logo" class="logo">
         </div>
+
+        <div class="text-box">
+            <h1 class="heading-primary">
+                        <span class="heading-primary-main">
+                            Chosen Generation
+                        </span>
+                <span class="heading-primary-sub">
+                            Adding Value to Society
+                        </span>
+            </h1>
+        </div>
+
+    </header>
     </body>
 </html>
