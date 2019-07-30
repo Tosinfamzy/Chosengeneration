@@ -14,3 +14,18 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/events', function () {
+    return view('events');
+});
+Route::get('/glofest', function () {
+    return view('glofest');
+});
+Route::get('/contact', function () {
+    return view('welcome');
+});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
