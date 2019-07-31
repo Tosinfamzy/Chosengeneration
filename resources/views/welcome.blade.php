@@ -19,36 +19,32 @@
         </div>
 
     </header>
-
+    <section class="about-us">
     <div id="about-us" class="about-us">
         <h2 id="about-us-h2">Know More About Who We Are</h2>
         <div class="about-us-section">
-            <div class="about-us-content">
-                <p>Left</p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                    desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class="about-us-content ">
+                <h3 class="about-us-content-header">VISION</h3>
+                <div class="mid-left">
+                    Our vision is to see young people discover their blueprint, realise their potential,
+                    and find their place. Discovering your kingdom purpose is a journey and we’re committed to help you every step of the way.
+                </div>
             </div>
             <div class="about-us-content">
-                <p>Middle</p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                    desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <h3 class="about-us-content-header">MISSION STATEMENT</h3>
+                <div>To produce authentic, young BELIEVERS, who understand their calling and potential, are maturing in their faith,
+                    and committed to nurturing and inspiring others to become what God has created them to be.</div>
             </div>
             <div class="about-us-content">
-                <p>Right</p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                    desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <h3 class="about-us-content-header">OUR BELIEVE</h3>
+                <div class="mid-right">
+                    “There is one body and one spirit…there is one Lord, one faith, one baptism, and one God and Father of us all.” Ephesians 4:4
+                </div>
             </div>
         </div>
     </div>
+    </section>
+
 
     @endsection
 

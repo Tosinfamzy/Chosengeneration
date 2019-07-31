@@ -10899,13 +10899,39 @@ header {
 
 #about-us-h2 {
   text-align: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.about-us-section {
+  margin: 40px auto 0 auto;
 }
 
 .about-us-content {
   padding: 10px;
   box-sizing: border-box;
-  flex: 1;
   flex-basis: 30%;
+  height: 300px;
+}
+
+.about-us-content-header {
+  text-align: center;
+}
+
+.mid-left {
+  background-image: linear-gradient(to right, #7ed56fd2, #28b485ec), url("/img/group2.jpeg");
+  padding: 40px;
+  color: #FFF;
+  font-weight: 800;
+  height: 100%;
+}
+
+.mid-right {
+  background-image: linear-gradient(to right, #7ed56fd2, #28b485ec), url("/img/group2.jpeg");
+  padding: 40px;
+  color: #FFF;
+  font-weight: 800;
+  height: 100%;
 }
 
 @media (min-width: 900px) {
