@@ -235,7 +235,10 @@ header {
   color: #FFF;
   font-weight: 800;
 }
+@import "variables";
+@import "mixins";
 @import "footer";
+@import "grid";
 @media (min-width: 900px) {
   .about-us-section {
     display: flex;
