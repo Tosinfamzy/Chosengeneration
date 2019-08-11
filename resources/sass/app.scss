@@ -182,18 +182,18 @@ header {
     display: inline-block;
     margin-left: 30px;
   }
-   li {
+  li {
     display: inline-block;
     margin-left: 30px;
 
-     &:first-child{
-       margin: 0;
-     }
-     a {
-       text-decoration: none;
-       text-transform: uppercase;
-       color: $Mediumgreen;
-     }
+    &:first-child{
+      margin: 0;
+    }
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $Mediumgreen;
+    }
   }
 
 }
@@ -228,16 +228,14 @@ header {
   padding: 40px;
   color: #FFF;
   font-weight: 800;
-  height: 100%;
 }
 .mid-right{
   background-image: linear-gradient(to right,#7ed56fd2, #28b485ec), url('/img/group2.jpeg');
   padding: 40px;
   color: #FFF;
   font-weight: 800;
-  height: 100%;
 }
-
+@import "footer";
 @media (min-width: 900px) {
   .about-us-section {
     display: flex;

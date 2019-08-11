@@ -26,8 +26,10 @@
             <div class="about-us-content ">
                 <h3 class="about-us-content-header">VISION</h3>
                 <div class="mid-left">
+                    <p>
                     Our vision is to see young people discover their blueprint, realise their potential,
-                    and find their place. Discovering your kingdom purpose is a journey and we’re committed to help you every step of the way.
+                    and find their place. Discovering your kingdom purpose is a journey <a href="/about">Read more...</a>
+                    </p>
                 </div>
             </div>
             <div class="about-us-content">
@@ -38,13 +40,15 @@
             <div class="about-us-content">
                 <h3 class="about-us-content-header">OUR BELIEVE</h3>
                 <div class="mid-right">
-                    “There is one body and one spirit…there is one Lord, one faith, one baptism, and one God and Father of us all.” Ephesians 4:4
+                    <p>
+                        “There is one body and one spirit…there is one Lord, one faith, one baptism, and one God and Father of us all.”
+                        <br>Ephesians 4:4
+                    </p>
                 </div>
             </div>
         </div>
     </div>
     </section>
-
 
     @endsection
 
