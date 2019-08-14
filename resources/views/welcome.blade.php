@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div class="about-us-content">
-                <h3 class="about-us-content-header">MISSION STATEMENT</h3>
+                <h3 class="about-us-content-header">MISSION STATEMENTs</h3>
                 <div>To produce authentic, young BELIEVERS, who understand their calling and potential, are maturing in their faith,
                     and committed to nurturing and inspiring others to become what God has created them to be.</div>
             </div>
