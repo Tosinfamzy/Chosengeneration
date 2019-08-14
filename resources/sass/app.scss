@@ -239,6 +239,7 @@ header {
 @import "mixins";
 @import "footer";
 @import "grid";
+@import "feature-box";
 @media (min-width: 900px) {
   .about-us-section {
     display: flex;
