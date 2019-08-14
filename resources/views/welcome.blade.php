@@ -29,7 +29,7 @@
             <div class="col-1-of-4">
                 <div class="feature-box">
                     <i class="feature-box__icon icon-basic-world"></i>
-                    <h3 class="heading-tertiary u-margin-bottom-small">Explore the world</h3>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Vision</h3>
                     <p class="feature-box__text">
                         Our vision is to see young people discover their blueprint, realise their potential,
                         and find their place. Discovering your kingdom purpose is a journey
@@ -40,7 +40,7 @@
             <div class="col-1-of-4">
                 <div class="feature-box">
                     <i class="feature-box__icon icon-basic-compass"></i>
-                    <h3 class="heading-tertiary u-margin-bottom-small">Meet nature</h3>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Mission</h3>
                     <p class="feature-box__text">
                         To produce authentic, young BELIEVERS, who understand their calling and potential, are maturing in their faith,
                         and committed to nurturing and inspiring others to become what God has created them to be.
@@ -51,7 +51,7 @@
             <div class="col-1-of-4">
                 <div class="feature-box">
                     <i class="feature-box__icon icon-basic-map"></i>
-                    <h3 class="heading-tertiary u-margin-bottom-small">Find your way</h3>
+                    <h3 class="heading-tertiary u-margin-bottom-small">OUR BELIEVE</h3>
                     <p class="feature-box__text">
                         “There is one body and one spirit…there is one Lord, one faith, one baptism, and one God and Father of us all.”
                         Ephesians 4:4
