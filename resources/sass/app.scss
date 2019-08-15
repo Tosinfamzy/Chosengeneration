@@ -30,7 +30,7 @@ body {
 }
 header {
   height: 95vh;
-  background-image: linear-gradient(to right,#7ed56fd2, #28b485ec), url('../img/group.jpeg');
+  //background-image: linear-gradient(to right,#7ed56fd2, #28b485ec), url('../img/group.jpeg');
   background-size: cover;
   clip-path: polygon(0 0 ,100% 0 , 100% 80%, 0 100%);
   background-position: top;
@@ -79,6 +79,9 @@ header {
   letter-spacing: 15px;
   animation-name: moveInRight;
   animation-duration: 4s;
+}
+.bg-video {
+    width:100%;
 }
 
 @keyframes moveInLeft {
@@ -235,12 +238,14 @@ header {
   color: #FFF;
   font-weight: 800;
 }
+
 @import "variables";
 @import "mixins";
+@import "navigation";
+@import "feature-box";
 @import "footer";
 @import "grid";
-@import "feature-box";
-@import "navigation";
+
 @media (min-width: 900px) {
   .about-us-section {
     display: flex;

@@ -17,13 +17,15 @@
             </h1>
             <a href="#about-us" class="btn btn-white btn-animated">Know more about us</a>
         </div>
+        <video src="img/bg-video.mp4" autoplay="true" loop="true" muted class="bg-video">
+        </video>
 
     </header>
 
 
 
 
-    <section class="section-features">
+    <section class="section-features" id="about-us">
 
         <div class="row">
             <div class="col-1-of-4">
