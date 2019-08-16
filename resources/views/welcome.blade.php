@@ -15,7 +15,7 @@
                             Adding Value to Society
                 </span>
             </h1>
-            <a href="#about-us" class="btn btn-white btn-animated">Know more about us</a>
+            {{--<a href="#about-us" class="btn btn-white btn-animated">Know more about us</a>--}}
         </div>
         <video src="img/bg-video.mp4" autoplay="true" loop="true" muted class="bg-video">
         </video>
