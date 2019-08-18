@@ -109,17 +109,17 @@
             <div id="firstRowImages" class="boxframe1">
                 <div class="slidebox size1 firstimg" style="width: 100px;"><img class="gallimg row1 firstimg" src=""></div>
 
-                <div class="slidebox size1" style="width: 100px;"><img class="gallimg row1" width="300" src="{{asset('img/group.jpeg')}}"></div>
+                <div class="slidebox size1" style="width: 100px;"><img class="gallimg row1" width="300" src="{{asset('img/glofest1.jpeg')}}"></div>
 
-                <div class="slidebox size1" style="width: 100px;"><img class="gallimg row1" width="300" src="{{asset('img/group.jpeg')}}"></div>
+                <div class="slidebox size1" style="width: 100px;"><img class="gallimg row1" width="300" src="{{asset('img/glofest2.jpeg')}}"></div>
 
-                <div class="slidebox size1" style="width: 100px;"><img class="gallimg row1" width="300" src="{{asset('img/group.jpeg')}}"></div>
+                <div class="slidebox size1" style="width: 100px;"><img class="gallimg row1" width="300" src="{{asset('img/glofest3.jpeg')}}"></div>
 
-                <div class="slidebox size1" style="width: 100px;"><img class="gallimg row1" width="300" src="{{asset('img/group.jpeg')}}"></div>
+                <div class="slidebox size1" style="width: 100px;"><img class="gallimg row1" width="300" src="{{asset('img/glofest4.jpeg')}}"></div>
 
-                <div class="slidebox size1" style="width: 100px;"><img class="gallimg row1" width="300" src="{{asset('img/group.jpeg')}}"></div>
+                <div class="slidebox size1" style="width: 100px;"><img class="gallimg row1" width="300" src="{{asset('img/glofest5.jpeg')}}"></div>
 
-                <div class="slidebox size1 lastimg" style="width: 100px;"><img class="gallimg row1 lastimg" src="{{asset('img/group.jpeg')}}" style=""></div>
+                <div class="slidebox size1 lastimg" style="width: 100px;"><img class="gallimg row1 lastimg" src="{{asset('img/glofest6.jpeg')}}" style=""></div>
 
             </div>
 
@@ -128,15 +128,15 @@
 
                 <div class="slidebox size2 firstimg" style="width: 100px;"><img class="gallimg row1 firstimg" src=""></div>
 
-                <div class="slidebox size2" style="width: 100px;"><img class="gallimg row1" width="227" src="{{asset('img/group.jpeg')}}"></div>
+                <div class="slidebox size2" style="width: 100px;"><img class="gallimg row1" width="227" src="{{asset('img/glofest7.jpeg')}}"></div>
 
-                <div class="slidebox size2" style="width: 227px;"><img class="gallimg row1 fullshine" width="227" src="{{asset('img/group.jpeg')}}"></div>
+                <div class="slidebox size2" style="width: 227px;"><img class="gallimg row1 fullshine" width="227" src="{{asset('img/glofest8.jpeg')}}"></div>
 
-                <div class="slidebox size2" style="width: 100px;"><img class="gallimg row1" width="227" src="{{asset('img/group.jpeg')}}"></div>
+                <div class="slidebox size2" style="width: 100px;"><img class="gallimg row1" width="227" src="{{asset('img/glofest9.jpeg')}}"></div>
 
-                <div class="slidebox size2" style="width: 100px;"><img class="gallimg row1" width="227" src="{{asset('img/group.jpeg')}}"></div>
+                <div class="slidebox size2" style="width: 100px;"><img class="gallimg row1" width="227" src="{{asset('img/glofest10.jpeg')}}"></div>
 
-                <div class="slidebox size2" style="width: 100px;"><img class="gallimg row1" width="227" src="{{asset('img/group.jpeg')}}"></div>
+                <div class="slidebox size2" style="width: 100px;"><img class="gallimg row1" width="227" src="{{asset('img/glofest11.jpeg')}}"></div>
 
                 <div class="slidebox size2 lastimg" style="width: 100px;"><img class="gallimg row1 lastimg" src="" style=""></div>
 
@@ -147,15 +147,15 @@
 
                 <div class="slidebox size3 firstimg" style="width: 100px;"><img class="gallimg row1 firstimg" src=""></div>
 
-                <div class="slidebox size3" style="width: 100px;"><img class="gallimg row1" width="227" src="{{asset('img/group.jpeg')}}"></div>
+                <div class="slidebox size3" style="width: 100px;"><img class="gallimg row1" width="227" src="{{asset('img/glofest12.jpeg')}}"></div>
 
-                <div class="slidebox size3" style="width: 100px;"><img class="gallimg row1" width="227" src="{{asset('img/group.jpeg')}}"></div>
+                <div class="slidebox size3" style="width: 100px;"><img class="gallimg row1" width="227" src="{{asset('img/glofest13.jpeg')}}"></div>
 
-                <div class="slidebox size3" style="width: 100px;"><img class="gallimg row1" width="227" src="{{asset('img/group.jpeg')}}"></div>
+                <div class="slidebox size3" style="width: 100px;"><img class="gallimg row1" width="227" src="{{asset('img/glofest14.jpeg')}}"></div>
 
-                <div class="slidebox size3" style="width: 100px;"><img class="gallimg row1" width="227" src="{{asset('img/group.jpeg')}}"></div>
+                <div class="slidebox size3" style="width: 100px;"><img class="gallimg row1" width="227" src="{{asset('img/glofest15.jpeg')}}"></div>
 
-                <div class="slidebox size3" style="width: 100px;"><img class="gallimg row1" width="227" src="{{asset('img/group.jpeg')}}"></div>
+                <div class="slidebox size3" style="width: 100px;"><img class="gallimg row1" width="227" src="{{asset('img/glofest16.jpeg')}}"></div>
 
                 <div class="slidebox size3 lastimg" style="width: 100px;"><img class="gallimg row1 lastimg" src=""></div>
 

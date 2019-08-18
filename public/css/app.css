@@ -11176,7 +11176,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
 
 .footer {
   background-color: #333;
-  padding: 10rem 0;
+  padding: 5rem 0;
   font-size: 1.4rem;
   color: #f7f7f7;
 }
@@ -11189,12 +11189,12 @@ ORDER: Base + typography > general layout + grid > page layout > components
 
 .footer__logo-box {
   text-align: center;
-  margin-bottom: 8rem;
+  margin-bottom: 2rem;
 }
 
 @media only screen and (max-width: 56.25em) {
   .footer__logo-box {
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
   }
 }
 

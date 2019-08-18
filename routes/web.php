@@ -24,7 +24,7 @@ Route::get('/glofest', function () {
     return view('glofest');
 });
 Route::get('/contact', function () {
-    return view('welcome');
+    return view('contact');
 });
 //Route::get('/', function () {
 //    return view('welcome');
