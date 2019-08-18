@@ -12,7 +12,7 @@
         }
 
         body {
-            background: #7ed56f;
+            /*background: #7ed56f;*/
         }
 
         .container {
