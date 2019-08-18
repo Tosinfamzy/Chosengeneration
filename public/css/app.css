@@ -10661,11 +10661,26 @@ body {
 
 header {
   height: 95vh;
+  background-image: linear-gradient(to right, #7ed56fd2, #28b485ec), url(/images/group.jpeg?a2840334bad5ee243169ab73f88c2504);
   background-size: cover;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
           clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   background-position: top;
   position: relative;
+}
+
+.others {
+  height: 95vh;
+  background-image: linear-gradient(to right, #7ed56fd2, #28b485ec), url(/images/group.jpeg?a2840334bad5ee243169ab73f88c2504);
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  background-position: top;
+  position: relative;
+}
+
+.glofest-ad {
+  width: 100%;
 }
 
 .logo-box {

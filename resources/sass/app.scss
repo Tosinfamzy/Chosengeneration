@@ -30,11 +30,26 @@ body {
 }
 header {
   height: 95vh;
-  //background-image: linear-gradient(to right,#7ed56fd2, #28b485ec), url('../img/group.jpeg');
+  background-image: linear-gradient(to right,#7ed56fd2, #28b485ec), url('../img/group.jpeg');
   background-size: cover;
   clip-path: polygon(0 0 ,100% 0 , 100% 80%, 0 100%);
   background-position: top;
   position: relative;
+}
+.others{
+  height: 95vh;
+  background-image: linear-gradient(to right,#7ed56fd2, #28b485ec), url('../img/group.jpeg');
+  background-size: cover;
+  clip-path: polygon(0 0 ,100% 0 , 100% 80%, 0 100%);
+  background-position: top;
+  position: relative;
+}
+.glowfest{
+  //background-image: linear-gradient(to right,#7ed56fd2, #28b485ec), url('../img/glofest.jpeg');
+  //background-size: cover;
+}
+.glofest-ad{
+  width: 100%;
 }
 .logo-box {
   position:absolute;
