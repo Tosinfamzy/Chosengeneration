@@ -9,10 +9,13 @@
 
         <nav class="navigation__nav">
             <ul class="navigation__list">
-                <li class="navigation__item"><a href="/about" class="navigation__link"><span>01</span>About</a></li>
-                <li class="navigation__item"><a href="/glofest" class="navigation__link"><span>02</span>Glofest</a></li>
-                <li class="navigation__item"><a href="/events" class="navigation__link"><span>03</span>Events</a></li>
-                <li class="navigation__item"><a href="/contact" class="navigation__link"><span>04</span>Contact</a></li>
+                @if(!Request::is('/'))
+                <li class="navigation__item"><a href="/" class="navigation__link"><span>01</span>Home</a></li>
+                @endif
+                <li class="navigation__item"><a href="/about" class="navigation__link"><span><?php echo  Request::is('/') ?'01':'02' ?></span>About</a></li>
+                <li class="navigation__item"><a href="/glofest" class="navigation__link"><span><?php echo  Request::is('/') ?'02':'03' ?></span>Glofest</a></li>
+                <li class="navigation__item"><a href="/events" class="navigation__link"><span><?php echo  Request::is('/') ?'03':'04' ?></span>Events</a></li>
+                <li class="navigation__item"><a href="/contact" class="navigation__link"><span><?php echo  Request::is('/') ?'04':'05' ?></span>Contact</a></li>
             </ul>
         </nav>
     </div>

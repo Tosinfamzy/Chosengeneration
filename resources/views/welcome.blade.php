@@ -63,7 +63,7 @@
                     <i class="feature-box__icon icon-basic-heart"></i>
                     <h3 class="heading-tertiary u-margin-bottom-small">What we do</h3>
                     <p class="feature-box__text">
-                        We are a youth organisation
+                        We are a youth organisation determined to add value to the lives of young people.
                     </p>
                 </div>
             </div>
