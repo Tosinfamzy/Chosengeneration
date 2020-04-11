@@ -1,19 +1,5 @@
-@extends('layout')
+@extends('layouts.app')
 @section('content')
-    <header class="others">
-        <div class="logo-box">
-            <img src="{{asset("img/logo-full.png")}}" alt="logo" class="logo">
-        </div>
-        @include('nav.main')
+    @include('.inc.non-home-header')
 
-        <div class="text-box">
-            <h1 class="heading-primary">
-                <span class="heading-primary-main">
-                    About us
-                </span>
-            </h1>
-        </div>
-
-
-    </header>
 @endsection
